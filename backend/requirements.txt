@@ -1,0 +1,9 @@
+faiss-cpu==1.11.0
+numpy==2.2.6
+pandas==2.3.0
+fastapi==0.115.12
+uvicorn==0.34.3
+pydantic==1.10.22
+sentence-transformers==4.1.0
+openai==1.84.0
+python-dotenv

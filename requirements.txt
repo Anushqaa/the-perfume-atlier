@@ -1,0 +1,16 @@
+fastapi==0.115.12
+uvicorn==0.34.3
+python-dotenv==1.1.0
+faiss-cpu==1.11.0
+sentence-transformers==4.1.0
+numpy==2.2.6
+pandas==2.3.0
+openai==1.84.0
+transformers==4.52.4
+torch==2.7.1
+scikit-learn==1.7.0
+streamlit==1.45.1
+plotly==6.1.2
+requests==2.32.3
+pydantic==1.10.22
+typing-extensions==4.14.0

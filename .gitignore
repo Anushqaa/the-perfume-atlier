@@ -1,0 +1,14 @@
+.env
+backend/.env
+frontend/.env
+
+__pycache__/
+*.pyc
+env/
+.venv/
+
+.docker/
+
+.vscode/
+
+logs/

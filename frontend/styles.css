@@ -1,0 +1,117 @@
+.stApp > header {
+    background-color: transparent;
+}
+.stApp {
+    background: linear-gradient(-20deg, #DBB5B5 31%, #8174A0 75%);
+    animation: my_animation 10s ease infinite;
+    background-size: 200% 200%;
+    background-attachment: fixed;
+}
+@keyframes my_animation {
+    0% {background-position: 0% 0%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 0%;}
+}
+
+html, body, [class^="css"]  {
+    font-family: 'Georgia', serif !important;
+    color: #A87676 !important;
+}
+
+[data-testid="stAppViewContainer"] * {
+    font-family: 'Georgia', serif !important;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #7A587A !important;
+}
+[data-testid="stSidebar"] * {
+    font-family: 'Georgia', serif !important;
+    color: #F0EBE3 !important;
+}
+
+.stButton > button {
+    background-color: #F49BAB !important;
+    color: #533B4D !important;
+    border-radius: 12px !important;
+    font-size: 1.1rem !important;
+    font-family: 'Georgia', serif !important;
+    border: none !important;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease !important;
+}
+.stButton > button:hover {
+    background-color: #D91656 !important;
+    transform: translateY(-2px) !important;
+}
+
+.user-message {
+    background-color: #FFF7F3 !important;
+    color: #9283a9 !important;
+    border-radius: 15px !important;
+    padding: 1rem 1.5rem !important;
+    margin: 1rem 0 1.5rem auto !important;
+    max-width: 70% !important;
+    font-family: 'Georgia', serif !important;
+    border-left: 4px solid #FFD66B !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+}
+
+.perfumer-message {
+    background-color: #EDDFE0 !important;
+    color: #A87676 !important;
+    border-radius: 15px !important;
+    padding: 1rem 1.5rem !important;
+    margin: 1rem auto 1.5rem 0 !important;
+    max-width: 70% !important;
+    font-family: 'Georgia', serif !important;
+    border-left: 4px solid #FFD66B !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
+}
+
+.stTextInput > div > div > input {
+    background-color: #FFF7F3 !important;
+    color: #9283a9 !important;
+    border-radius: 10px !important;
+    border: 1px solid #555 !important;
+    font-family: 'Georgia', serif !important;
+}
+
+.flashcard {
+    background-color: #FEF3E2 !important;
+    color: #441752 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    font-family: 'Georgia', serif !important;
+    transition: transform 0.3s ease !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+}
+.flashcard:hover {
+    transform: translateY(-5px) !important;
+}
+.flashcard-image {
+    flex-shrink: 0 !important;
+    width: 120px !important;
+    height: 160px !important;
+    border-radius: 8px !important;
+    object-fit: cover !important;
+}
+
+.flashcard-content {
+    flex: 1 !important;
+}
+
+.stWarning {
+    background-color: #6867AC !important;
+    color: #FFF9F9 !important;
+    border-radius: 10px !important;
+}
+.stSuccess {
+    background-color: #F675A8 !important;
+    color: #FFF5E4 !important;
+    border-radius: 10px !important;
+}
