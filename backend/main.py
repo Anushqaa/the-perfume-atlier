@@ -140,7 +140,7 @@ async def chat(message: ChatMessage):
 
     try:
         response = await client.chat.completions.create(
-            model="deepseek/deepseek-chat-v3-0324:free",
+            model="deepseek/deepseek-chat-v3.1:free",
             messages=session["messages"],
             temperature=0.7
         )
