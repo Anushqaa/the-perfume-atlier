@@ -106,7 +106,7 @@ async def start_chat():
     
     try:
         response = await client.chat.completions.create(
-            model="deepseek/deepseek-chat-v3.1:free",
+            model=os.getenv("OPENROUTER_MODEL"),
             messages=sessions[session_id]["messages"],
             temperature=0.7
         )
@@ -140,7 +140,7 @@ async def chat(message: ChatMessage):
 
     try:
         response = await client.chat.completions.create(
-            model="deepseek/deepseek-chat-v3.1:free",
+            model=os.getenv("OPENROUTER_MODEL"),
             messages=session["messages"],
             temperature=0.7
         )
